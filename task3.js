@@ -86,10 +86,10 @@ const result = enterprises.forEach(gov => {
                  
                 if (govTotal !==0 && dep.employees_count !==0){ 
                     
-                    console.log(`-${dep.name} - (${dep.employees_count} сотрудников)`)
+                    console.log(`-${dep.name}  (${dep.employees_count} сотрудников)`)
                 }else{ 
                     
-                    console.log(`-${dep.name} - (нет сотрудников)`)
+                    console.log(`-${dep.name}  (нет сотрудников)`)
                 }
                 
             })
